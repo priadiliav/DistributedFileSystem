@@ -1,0 +1,8 @@
+#make please 
+.vs
+.vscode
+.idea
+
+bin/
+obj/
+node_modules/
