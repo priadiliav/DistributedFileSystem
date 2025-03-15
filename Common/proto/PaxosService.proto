@@ -1,0 +1,36 @@
+syntax = "proto3";
+
+package dfs.replicaservice;
+
+service PaxosService {
+  rpc prepare(PrepareRequest) returns (PrepareResponse);
+  rpc accept(AcceptRequest) returns (AcceptResponse);
+  rpc decide(DecideRequest) returns (DecideResponse);
+}
+
+message PrepareRequest {
+  int64 viewId = 1;
+  int64 n = 2;
+}
+
+message PrepareResponse {
+  bool isOld = 1;
+  int64 viewId = 2;
+  repeated string view = 3;
+}
+
+message AcceptRequest {
+  int64 n = 2;
+  repeated string view = 3;
+}
+
+message AcceptResponse {
+}
+
+message DecideRequest {
+  int64 viewId = 1;
+  repeated string view = 2;
+}
+
+message DecideResponse {
+}

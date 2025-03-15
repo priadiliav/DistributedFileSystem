@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F95E2241-6F12-4560-A293-D4922E4599A4}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DfsService", "DfsService\DfsService.csproj", "{57CE57F4-5443-443F-BC06-3D0D06D526AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtentService", "ExtentService\ExtentService.csproj", "{52BD762D-8963-455E-8206-A13975AEA559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockService", "LockService\LockService.csproj", "{EDB13232-5517-4D29-BE02-DA7DF86BCD31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{F1C38294-45D8-4DDE-90F5-C2D41AD519B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57CE57F4-5443-443F-BC06-3D0D06D526AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57CE57F4-5443-443F-BC06-3D0D06D526AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57CE57F4-5443-443F-BC06-3D0D06D526AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57CE57F4-5443-443F-BC06-3D0D06D526AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52BD762D-8963-455E-8206-A13975AEA559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52BD762D-8963-455E-8206-A13975AEA559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52BD762D-8963-455E-8206-A13975AEA559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52BD762D-8963-455E-8206-A13975AEA559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB13232-5517-4D29-BE02-DA7DF86BCD31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB13232-5517-4D29-BE02-DA7DF86BCD31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB13232-5517-4D29-BE02-DA7DF86BCD31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB13232-5517-4D29-BE02-DA7DF86BCD31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1C38294-45D8-4DDE-90F5-C2D41AD519B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C38294-45D8-4DDE-90F5-C2D41AD519B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C38294-45D8-4DDE-90F5-C2D41AD519B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C38294-45D8-4DDE-90F5-C2D41AD519B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

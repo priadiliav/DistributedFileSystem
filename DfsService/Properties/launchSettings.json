@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "http-server_c1": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "commandLineArgs": "7001 127.0.0.1:7002 127.0.0.1:7003"
+    },
+    "http-server_c2": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "commandLineArgs": "7004 127.0.0.1:7002 127.0.0.1:7003"
+    }
+  }
+}
